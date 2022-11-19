@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 local Player = game.Players.LocalPlayer
 local Storage = game.ReplicatedStorage
 local Teams = game:GetService("Teams")
@@ -16,7 +23,7 @@ end
 
 -- GUI
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GetReal099/Onetap.blox/main/U2"))()
-local Window,WRender = Library:AddWindow("Onetap.blox", {
+local Window,WRender = Library:AddWindow("Onetap.blox | by nitch#9576", {
 	main_color = Color3.fromRGB(45, 45, 45),
 	min_size = Vector2.new(350, 600),
 	toggle_key = Enum.KeyCode.RightShift,
