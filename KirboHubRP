@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 local Player = game.Players.LocalPlayer
 local Storage = game.ReplicatedStorage
 local Teams = game:GetService("Teams")
